@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+<NuxtLayout :name="layout">
+  <NuxtPage />
+</NuxtLayout >
 </template>
+
+
+<script setup>
+ const layout = ref('main')
+</script>
