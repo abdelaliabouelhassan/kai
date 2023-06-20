@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full py-20 font-inter space-y-10">
+    <div class=" w-full  pb-10 font-inter space-y-10">
         <div class=" w-full bg-secondary p-4 rounded-lg grid grid-cols-1 md:grid-cols-2 gap-10">
             <div class=" w-full flex flex-col items-start space-y-4">
                 <div class=" flex items-center space-x-2">
