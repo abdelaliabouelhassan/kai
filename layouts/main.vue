@@ -3,8 +3,8 @@
         <div class=" w-full px-4 xl:px-0 max-w-[73.188rem] mx-auto py-5">
             <Header />
             <slot />
-            <Footer />
         </div>
+         <Footer />
     </div>
 </template>
 
