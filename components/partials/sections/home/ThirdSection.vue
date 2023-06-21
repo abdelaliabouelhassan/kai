@@ -28,16 +28,16 @@
                         </thead>
                         <tbody>
                             <tr :class="{'bg-[#152D36]': index % 2 == 0}" v-for="(item,index,key) in data" :key="key">
-                                <th scope="row" class="px-6 py-4   whitespace-nowrap  rounded-l-sm hidden md:block">
+                                <th scope="row" class="sm:px-6 px-4 py-4   whitespace-nowrap  rounded-l-sm hidden md:block">
                                     {{ item.game }}
                                 </th>
-                                <td class="px-6 py-4 rounded-l-sm">
+                                <td class="sm:px-6 py-4 px-4  rounded-l-sm">
                                 {{item.user}}
                                 </td>
-                                <td class="px-6 py-4 text-center hidden md:block">
+                                <td class="sm:px-6 py-4 px-4  text-center hidden md:block">
                                     {{ item.time }}
                                 </td>
-                                <td class="px-6 py-4 text-end rounded-r-sm">
+                                <td class="sm:px-6 py-4 px-4  text-end rounded-r-sm">
                                 <div class=" flex justify-end  items-center space-x-2">
                                         <span>{{ item.payout }}</span>
                                         <img src="/images/Asset.svg" alt="">

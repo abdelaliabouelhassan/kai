@@ -65,10 +65,21 @@
 
         <div class=" flex justify-center items-center  md:space-x-5 flex-row-reverse md:flex-row pb-4">
             <button class=" text-white font-bold font-inter text-lg md:text-[1.503rem] bg-primary rounded-[0.601rem] max-w-[10.11rem] md:max-w-[14.128rem] w-full h-[2.791rem] md:h-[3.9rem] text-center hover:bg-opacity-75 duration-300">Connect Wallet</button>
-            <button class=" mr-2 md:pr-0 text-primary font-bold font-inter text-lg md:text-[1.503rem] bg-white rounded-[0.601rem] max-w-[10.11rem] md:max-w-[14.128rem] w-full h-[2.791rem] md:h-[3.9rem] text-center hover:bg-opacity-75 duration-300">Register</button>
+            <button @click="openModal" class=" mr-2 md:pr-0 text-primary font-bold font-inter text-lg md:text-[1.503rem] bg-white rounded-[0.601rem] max-w-[10.11rem] md:max-w-[14.128rem] w-full h-[2.791rem] md:h-[3.9rem] text-center hover:bg-opacity-75 duration-300">Register</button>
         </div>
+        <Register ref="RegisterRef"/>
     </div>
 </template>
+
+
+<script setup>
+ import Register from "@/components/UI/Register.vue"
+ const RegisterRef = ref(null)
+
+ const openModal = () => {
+    RegisterRef.value.open();
+ }
+</script>
 
 <style scoped>
  .textShadow {
