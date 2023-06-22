@@ -1,12 +1,12 @@
 <template>
 <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true" v-if="show">
  
-  <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+  <div class="fixed inset-0 bg-[#000000] bg-opacity-50 transition-opacity"></div>
 
   <div class="fixed inset-0 z-10 overflow-y-auto">
     <div class="flex min-h-full  h-full items-center justify-center  text-center sm:items-center ">
    
-      <div  class="relative transform overflow-y-auto font-inter h-full   w-screen sm:h-auto p-8 bg-[#132932] text-left shadow-xl transition-all sm:my-8  sm:w-full sm:max-w-[449px]">
+      <div  class="relative transform overflow-y-auto font-inter h-full  sm:rounded-[10px]  w-screen sm:h-auto p-8 bg-[#132932] text-left shadow-xl transition-all sm:my-8  sm:w-full sm:max-w-[449px]">
             <button @click="show = false" class=" absolute top-4 right-4">
                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.90561 0.674728C9.32148 0.265976 9.99575 0.265976 10.4116 0.674728C10.8275 1.08348 10.8275 1.7462 10.4116 2.15495L6.95361 5.55374L10.5097 9.04896C10.9256 9.45771 10.9256 10.1204 10.5097 10.5292C10.0939 10.9379 9.41959 10.9379 9.00371 10.5292L5.44759 7.03397L1.89147 10.5292C1.47559 10.9379 0.801328 10.9379 0.385453 10.5292C-0.0304215 10.1204 -0.0304212 9.45771 0.385454 9.04896L3.94157 5.55374L0.483557 2.15495C0.0676822 1.7462 0.0676822 1.08348 0.483557 0.674728C0.899432 0.265976 1.5737 0.265976 1.98957 0.674728L5.44759 4.07352L8.90561 0.674728Z" fill="white" fill-opacity="0.5"/>
