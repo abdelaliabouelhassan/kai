@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full pt-28 pb-5 font-inter space-y-10">
+    <div class=" w-full pt-9 md:pt-28 pb-5 font-inter space-y-10">
         <div class=" w-full flex flex-col items-center md:grid  md:grid-cols-2 md:gap-10">
             <div class=" max-w-[32.269rem] w-full flex flex-col items-center md:items-start space-y-10">
                 <p class=" text-white text-center md:text-start text-[2.5rem] md:text-[3.712rem] font-extrabold leading-[3.658rem] md:leading-[5.375rem]">
