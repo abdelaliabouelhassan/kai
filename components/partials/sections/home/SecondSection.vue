@@ -6,7 +6,10 @@
                         <Casino />
                         <span class=" text-white font-medium text-base md:text-2xl">Casino</span>
                 </div>
-                <div class=" w-full max-h-[14.218rem] rounded-lg overflow-hidden">
+                <div class=" w-full max-h-[14.218rem] rounded-lg overflow-hidden relative">
+                    <div class=" absolute left-0 top-0 w-1/2 h-full  flex px-4">
+                        <span class=" text-white text-4xl lg:text-6xl  font-extrabold m-auto" style="font-family: 'Proxima Nova';">CASINO</span>
+                    </div>
                     <img src="/images/WiderCasino.svg" class=" w-full h-full object-cover" alt="">
                 </div>
                 <div class=" w-full flex items-center justify-between">
@@ -33,6 +36,9 @@
                         <span class=" text-white font-medium text-base md:text-2xl">Sports</span>
                 </div>
                 <div class=" w-full max-h-[14.218rem] rounded-lg overflow-hidden relative">
+                    <div class=" absolute left-0 top-0 w-1/2 h-full  flex px-4">
+                        <span class=" text-white text-4xl lg:text-6xl font-extrabold m-auto" style="font-family: 'Proxima Nova';">SPORTS</span>
+                    </div>
                     <img src="/images/Artboard.svg" class=" w-full h-full object-cover" alt="">
                     <button class=" absolute cursor-default top-0 right-0 text-primary font-bold font-inter  text-base md:text-lg bg-white  max-w-[8.625rem] md:max-w-[10.518rem] w-full h-[2.563rem] md:h-[3.125rem] text-center  duration-300">Coming Soon</button>
                 </div>
@@ -50,7 +56,7 @@
                         <img src="/images/IPL-dlkwyo.svg" alt="">
                     </div>
                 </div>
-                <div class=" w-full">
+                <div class=" w-full pt-1">
                     <button class=" w-full h-[2.324rem] md:h-[3.581rem] text-center bg-[#ACABAB] text-[#595252] font-medium text-base md:text-2xl rounded hover:bg-opacity-75 duration-300">Sports</button>
                 </div>
             </div>
@@ -81,13 +87,13 @@
                     <span class="textShadow font-bold text-4xl text-primary">Promotions</span>
                 </div>
               <PromotionCard title="Welcome Bonus 250%" subtitle='Deposit <span class=" font-bold">$60 </span> or more for a 250% bonus'>
-                      <img src="/images/GiftCard2.svg" alt="">
+                      <img src="/images/GiftCard2.svg" class="  w-[3.09106rem]" alt="">
               </PromotionCard>
                <PromotionCard title="Welcome Bonus 150%" subtitle='Deposit <span class=" font-bold">$20 </span> or more for a 250% bonus'>
-                      <img src="/images/GiftCard2.svg" alt="">
+                      <img src="/images/GiftCard2.svg" class="  w-[3.09106rem]" alt="">
               </PromotionCard>
                <PromotionCard title="Crypto Cashback" subtitle='Deposit <span class=" font-bold">$20 </span> Get 20% cashback'>
-                      <img src="/images/MedalFirstPlace.svg" alt="">
+                      <img src="/images/MedalFirstPlace.svg" class="  w-[3.09106rem]" alt="">
               </PromotionCard>
 
               <div class=" w-full flex justify-end">

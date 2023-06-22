@@ -45,7 +45,8 @@
             </div>
             <div class=" w-full flex flex-col items-center md:items-start md:space-y-10">
                 <div class=" w-full flex justify-center  pt-16 ">
-                    <img src="/images/Colourportal1.svg" class=" max-w-[23rem] md:max-w-full w-full h-full object-cover  md:pl-20 md:scale-[1.7] lg:pl-0 lg:scale-125 " alt="">
+                   <img src="/images/Colourportal1mobile.svg" class=" md:hidden  w-full h-full object-cover " alt="">
+                    <img src="/images/Colourportal1.svg" class=" hidden md:block max-w-[23rem] md:max-w-full w-full h-full object-cover  md:pl-20 md:scale-[1.7] lg:pl-0 lg:scale-125 " alt="">
                 </div>
                 <div class=" flex items-center space-x-2 md:pl-5">
                     <div>

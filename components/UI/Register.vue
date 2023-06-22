@@ -36,7 +36,7 @@
                     <div class=" w-full flex items-center space-x-5  bg-[#17313A] hover:bg-opacity-70 duration-300 rounded-2xl justify-between  py-5 px-4 sm:px-5">
                         
                         <div class=" flex w-full flex-col items-center space-y-2 lg:px-4 ">
-                            <span class=" text-white font-bold text-xl sm:text-2xl text-center">Welcome Bonus 250%</span>
+                            <span class=" text-white font-bold text-xl sm:text-2xl text-center" style="font-family: 'Proxima Nova';">Welcome Bonus 250%</span>
                             <p class=" text-xs text-white font-light text-center">
                                 Deposit <span class=" font-bold">$60 </span> or more for a 250% bonus
                             </p>
@@ -70,7 +70,7 @@
                     <div class=" w-full flex items-center space-x-5  bg-[#36535C] rounded-2xl justify-between  py-5 px-4 sm:px-5">
                         
                         <div class=" flex w-full flex-col items-center space-y-2 lg:px-4 ">
-                            <span class=" text-white font-bold text-xl sm:text-2xl text-center">Welcome Bonus 250%</span>
+                            <span class=" text-white font-bold text-xl sm:text-2xl text-center" style="font-family: 'Proxima Nova';">Welcome Bonus 250%</span>
                             <p class=" text-xs text-white font-light text-center">
                                 Deposit <span class=" font-bold">$60 </span> or more for a 250% bonus
                             </p>

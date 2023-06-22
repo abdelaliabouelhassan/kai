@@ -8,8 +8,8 @@
                        <slot />
                     </div>
                     <div class=" flex w-full flex-col items-center space-y-2 lg:px-4 ">
-                        <span class=" text-white font-bold text-xl lg:text-[2.078rem] text-center">{{ title }}</span>
-                        <p class=" text-[0.508rem] lg:text-xs text-white font-light text-center" v-html="subtitle">
+                        <span class=" text-white font-bold text-xl lg:text-[2.07769rem] text-center lg:whitespace-nowrap" style="font-family: 'Proxima Nova';">{{ title }}</span>
+                        <p class=" text-[0.508rem] lg:text-[0.77913rem] text-white font-light text-center" v-html="subtitle">
                         </p>
                     </div>
                 </div>
